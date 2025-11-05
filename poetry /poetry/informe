@@ -1,0 +1,49 @@
+# Proyecto de Laboratorio de Física General
+
+Tema: Movimiento Armónico Simple
+integrante: Leonel Mattias Uribe Escobar
+Fecha: 6 de noviembre de 2025
+
+## 1. Introducción
+
+En este experimento se estudia el **Movimiento Armónico Simple (MAS)** usando partículas de distintas masas sujetas a un resorte.
+El objetivo es analizar cómo la **masa afecta el periodo y la amplitud** del movimiento.
+
+## 2. Fundamento Teórico
+
+El Movimiento Armónico Simple describe un movimiento oscilatorio donde la fuerza que actúa sobre una partícula es proporcional a su desplazamiento, pero de sentido opuesto:
+
+[
+F = -k x
+]
+donde:
+
+* ( F ) es la fuerza restauradora (N),
+* ( k ) es la constante elástica del resorte (N/m),
+* ( x ) es el desplazamiento (m).
+
+El periodo del MAS está dado por:
+[
+T = 2\pi \sqrt{\frac{m}{k}}
+]
+Por tanto, al aumentar la masa, el periodo aumenta y las oscilaciones se vuelven más lentas.
+## 3. Datos Experimentales
+
+Se registraron posiciones (x) (m) para distintos tiempos (t) (s) de partículas de masas (4m) y (2m).
+
+## 4. Resultados y Gráfico
+
+Gráfico obtenido del código en `src/graficar.py`:
+![Gráfico de Movimiento Armónico](grafico_movimiento.png)
+
+Observación:
+Se aprecia que la partícula con masa **4m** oscila más lentamente y con menor frecuencia que la de **2m**, lo cual concuerda con la teoría, ya que el periodo (T) depende directamente de la raíz cuadrada de la masa
+
+## 5. Conclusión
+
+Los resultados muestran que:
+
+* La masa influye directamente en la frecuencia de oscilación.
+* El comportamiento observado se ajusta a la ecuación teórica del movimiento armónico simple.
+* El gráfico confirma que el sistema cumple la relación ( T \propto \sqrt{m} ).
+
