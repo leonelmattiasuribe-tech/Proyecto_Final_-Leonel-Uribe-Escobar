@@ -4,6 +4,7 @@ En mi caso, el proyecto fue desarrollado de manera individual.
 
 ## Integrante
 - Leonel Matías Uribe Escobar
+  GRUPO:D6
 
 ## Objetivo
 Investigar y documentar las siguientes herramientas utilizadas en desarrollo de software:
