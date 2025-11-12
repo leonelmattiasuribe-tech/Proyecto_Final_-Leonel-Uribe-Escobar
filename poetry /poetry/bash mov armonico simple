@@ -1,0 +1,7 @@
+git init
+git add movimiento_armonico.py
+git commit -m "Práctica Movimiento Armónico Simple"
+git branch -M main
+git remote add origin https://github.com/TU_USUARIO/practica_mas.git
+git push -u origin main
+
